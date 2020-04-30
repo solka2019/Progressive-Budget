@@ -33,11 +33,7 @@ function checkDatabase() {
 
   getAll.onsuccess = function () {
     if (getAll.result.length > 0) {
-<<<<<<< HEAD
-      fetch("/API/transaction/bulk", {
-=======
       fetch("/api/transaction/bulk", {
->>>>>>> 15414d7b81e651cf0d72fa7460783e6c936d51b7
         method: "POST",
         body: JSON.stringify(getAll.result),
         headers: {
@@ -47,10 +43,6 @@ function checkDatabase() {
       })
         .then(response => response.json())
         .then(() => {
-<<<<<<< HEAD
-=======
-          // delete records if successful
->>>>>>> 15414d7b81e651cf0d72fa7460783e6c936d51b7
           const transaction = db.transaction(["pending"], "readwrite");
           const store = transaction.objectStore("pending");
           store.clear();
@@ -58,15 +50,4 @@ function checkDatabase() {
     }
   };
 }
-<<<<<<< HEAD
-// function deletePending() {
-//   const transaction = db.transaction(["pending"], "readwrite");
-//   const store = transaction.objectStore("pending");
-//   store.clear();
-// }
-=======
-
->>>>>>> 15414d7b81e651cf0d72fa7460783e6c936d51b7
-
-// listen for app coming back online
 window.addEventListener("online", checkDatabase);

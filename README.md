@@ -1,7 +1,7 @@
 # Progressive_budget - Homework 18
 This web application is an online/offline budget tracker.
 
-# What does the web application do?
+## What does the web application do?
 The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
 Offline Functionality:

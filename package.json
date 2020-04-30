@@ -9,24 +9,14 @@
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
     "url": "git+https://github.com/solka2019/Progressive-Budget"
-=======
-    "url": "git+https://github.com/solka2019/progressive_budget.git"
->>>>>>> 15414d7b81e651cf0d72fa7460783e6c936d51b7
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-<<<<<<< HEAD
     "url": "https://github.com/solka2019/Progressive-Budget/issues"
   },
   "homepage": "",
-=======
-    "url": "https://github.com/solka2019/progressive_budget/issues"
-  },
-  "homepage": "https://github.com/solka2019/progressive_budget#readme",
->>>>>>> 15414d7b81e651cf0d72fa7460783e6c936d51b7
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
