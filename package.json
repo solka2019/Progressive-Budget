@@ -1,0 +1,27 @@
+{
+  "name": "progressive_budget",
+  "version": "1.0.0",
+  "description": "PWA budget tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solka2019/Progressive-Budget"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solka2019/Progressive-Budget/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.4",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1"
+  }
+}
