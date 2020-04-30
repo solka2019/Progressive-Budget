@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 //from Developer
-=======
->>>>>>> 15414d7b81e651cf0d72fa7460783e6c936d51b7
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
