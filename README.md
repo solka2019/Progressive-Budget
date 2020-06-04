@@ -25,11 +25,11 @@ Giving users a fast and easy way to track their money is important, but allowing
 
 ## Page Snapshot
 
-![Progressive Budget](./public/assets/images/budget.PNG)
+![Progressive Budget](./public/assets/images/ProgressiveBudget.PNG)
 
 
 ## Github
 
 https://github.com/solka2019/Progressive-Budget
 
-https://solka2019.github.io/Progressive-Budget/.
+https://progressive-budget-hw.herokuapp.com/
